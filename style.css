@@ -1,0 +1,41 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
+</style>
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+       body {
+            background-color: #111;
+            background: url("https://www.d-elf.com/wp-content/uploads/2016/01/Sifi_town3_4n_Top2-1.jpg")no-repeat center/cover;
+       }
+       .mytitle {
+           text-align: center;
+           color: #fff;
+           text-align: left;
+           padding: 60px 0;
+       }
+       .mytitle h1 {
+           max-width: 1000px;
+           margin: 0 auto;
+       }
+       .contents {
+           padding: 60px 0;
+
+       }
+        .contents .mycards .col {
+            display: flex;
+            flex-direction: column;
+        }
+        .contents .mycards {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .contents .mycards .col img {
+             max-height: 400px;
+             object-fit: cover;
+         }
+        .contents .card-body {
+            color: #fff;
+            background-color: #111;
+        }
