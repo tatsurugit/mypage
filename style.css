@@ -39,6 +39,8 @@ body {
     color: #fff;
     background-color: #111;
     lighting-color: 1.5;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
 }
 .contents .card-body p {
     font-family: 14px;
